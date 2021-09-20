@@ -23,5 +23,12 @@ namespace TestFigureSquare
             double test_res = 1.9843;
             Assert.AreEqual(res, test_res, .0001);
         }
+        [TestMethod]
+        public void TestTriangle2()
+        {
+            double res = fgr.Triangle(3, 4, 5);
+            double test_res = 6;
+            Assert.AreEqual(res, test_res);
+        }
     }
 }
